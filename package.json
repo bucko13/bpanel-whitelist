@@ -1,0 +1,36 @@
+{
+  "name": "bpanel-whitelist",
+  "version": "0.0.1",
+  "description": "A backend plugin for bPanel to whitelist endpoints, so that all non-whitelisted endpoints will be blocked",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "eslint lib/ test/ || exit 0",
+    "test": "bmocha --reporter spec test"
+  },
+  "keywords": [
+    "bpanel",
+    "bcoin",
+    "plugin",
+    "server",
+    "expressjs",
+    "whitelist",
+    "security"
+  ],
+  "author": "bucko",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "bcfg": "^0.1.5",
+    "bmocha": "^1.0.0",
+    "bsert": "0.0.8",
+    "eslint": "^4.9.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-import-resolver-webpack": "^0.8.3",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0",
+    "prettier": "^1.11.1"
+  },
+  "peerDependencies": {}
+}
